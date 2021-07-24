@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="My Sanity Suite" duration-ms="8229" started-at="2021-07-24T17:56:47 MYT" finished-at="2021-07-24T17:56:55 MYT">
+  <suite name="My Sanity Suite" duration-ms="12133" started-at="2021-07-24T18:47:03 MYT" finished-at="2021-07-24T18:47:15 MYT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8229" started-at="2021-07-24T17:56:47 MYT" finished-at="2021-07-24T17:56:55 MYT">
+    <test name="Test" duration-ms="12133" started-at="2021-07-24T18:47:03 MYT" finished-at="2021-07-24T18:47:15 MYT">
       <class name="test.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@262b2c86]" name="setup" is-config="true" duration-ms="1668" started-at="2021-07-24T17:56:47 MYT" finished-at="2021-07-24T17:56:48 MYT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@4923ab24]" name="setup" is-config="true" duration-ms="2573" started-at="2021-07-24T18:47:03 MYT" finished-at="2021-07-24T18:47:05 MYT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTestcase2()[pri:0, instance:test.LoginTest@262b2c86]" name="LoginTestcase2" duration-ms="6355" started-at="2021-07-24T17:56:48 MYT" finished-at="2021-07-24T17:56:55 MYT">
+        <test-method status="PASS" signature="LoginTestcase2()[pri:0, instance:test.LoginTest@4923ab24]" name="LoginTestcase2" duration-ms="9239" started-at="2021-07-24T18:47:06 MYT" finished-at="2021-07-24T18:47:15 MYT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTestcase2 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@262b2c86]" name="teardown" is-config="true" duration-ms="187" started-at="2021-07-24T17:56:55 MYT" finished-at="2021-07-24T17:56:55 MYT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@4923ab24]" name="teardown" is-config="true" duration-ms="293" started-at="2021-07-24T18:47:15 MYT" finished-at="2021-07-24T18:47:15 MYT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
