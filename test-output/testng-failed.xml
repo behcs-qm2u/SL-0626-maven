@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tdd.PrimeNumTest">
+      <class name="tdd.HarmcrestExample">
         <methods>
-          <include name="PositiveTest"/>
+          <include name="testcase"/>
         </methods>
-      </class> <!-- tdd.PrimeNumTest -->
+      </class> <!-- tdd.HarmcrestExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
