@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="My Sanity Suite" duration-ms="59858" started-at="2021-07-04T15:13:12 MYT" finished-at="2021-07-04T15:14:12 MYT">
+  <suite name="Default suite" duration-ms="71418" started-at="2021-07-10T14:09:21 MYT" finished-at="2021-07-10T14:10:32 MYT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59858" started-at="2021-07-04T15:13:12 MYT" finished-at="2021-07-04T15:14:12 MYT">
-      <class name="test.ParallelExecution">
-        <test-method status="PASS" signature="Testcase1()[pri:0, instance:test.ParallelExecution@17d677df]" name="Testcase1" duration-ms="13743" started-at="2021-07-04T15:13:12 MYT" finished-at="2021-07-04T15:13:26 MYT">
+    <test name="Default test" duration-ms="71418" started-at="2021-07-10T14:09:21 MYT" finished-at="2021-07-10T14:10:32 MYT">
+      <class name="tdd.PrimeNumTest">
+        <test-method status="PASS" signature="NegativeTest()[pri:0, instance:tdd.PrimeNumTest@2bbf4b8b]" name="NegativeTest" duration-ms="7" started-at="2021-07-10T14:09:21 MYT" finished-at="2021-07-10T14:09:21 MYT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase1 -->
-        <test-method status="PASS" signature="Testcase2()[pri:0, instance:test.ParallelExecution@17d677df]" name="Testcase2" duration-ms="42031" started-at="2021-07-04T15:13:12 MYT" finished-at="2021-07-04T15:13:54 MYT">
+        </test-method> <!-- NegativeTest -->
+        <test-method status="PASS" signature="PositiveTest()[pri:0, instance:tdd.PrimeNumTest@2bbf4b8b]" name="PositiveTest" duration-ms="66199" started-at="2021-07-10T14:09:21 MYT" finished-at="2021-07-10T14:10:27 MYT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcase2 -->
-        <test-method status="PASS" signature="Testcase3()[pri:0, instance:test.ParallelExecution@17d677df]" name="Testcase3" duration-ms="59763" started-at="2021-07-04T15:13:12 MYT" finished-at="2021-07-04T15:14:12 MYT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcase3 -->
-      </class> <!-- test.ParallelExecution -->
-    </test> <!-- Test -->
-  </suite> <!-- My Sanity Suite -->
+        </test-method> <!-- PositiveTest -->
+      </class> <!-- tdd.PrimeNumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

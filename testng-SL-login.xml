@@ -5,8 +5,8 @@
 
 <suite name="My Sanity Suite">
 
-	<parameter name="username" value="abc@xyz.com" />
-	<parameter name="password" value="unknown" />
+	<parameter name="username" value="abc@2xyz.com" />
+	<parameter name="password" value="unknown!@YA" />
 
 
   <test thread-count="5" name="Test" verbose="2">
